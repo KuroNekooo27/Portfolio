@@ -20,13 +20,16 @@ const Contact = () => {
     setStatus({ type: "", message: "" });
 
     try {
-      // NOTE: Replace these with your actual EmailJS credentials
-      // Sign up at https://www.emailjs.com/ (free tier: 200 emails/month)
-      // Service ID, Template ID, and Public Key are found in your EmailJS dashboard
-      await emailjs.sendForm(
+      await emailjs.send(
         "service_cmxfev6",
         "template_cys514g",
-        formRef.current,
+        {
+          name: form.name,
+          email: form.email,
+          message: form.message,
+          title: `Portfolio Message from ${form.name}`,
+          time: new Date().toLocaleString(),
+        },
         "6yH2A3cD19fJcxo7Z"
       );
       setStatus({
