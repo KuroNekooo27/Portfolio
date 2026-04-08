@@ -34,15 +34,15 @@ export const aboutMe = {
 export const experiences = [
   {
     role: "Mobile Application Developer Intern",
-    company: "Company Name",
-    period: "Month Year – Month Year",
+    company: "S.P Madrid and Associates",
+    period: "Present",
     description: [
-      "Engineered and optimized cross-platform mobile applications using React Native and modern JavaScript (ES6+), improving load times and user experience across iOS and Android.",
-      "Designed and developed RESTful APIs with Node.js and Express.js, enabling efficient client-server communication and supporting 100% of the application's data operations.",
-      "Architected database schemas in MongoDB, implementing efficient indexing and data modeling practices for scalable data retrieval and storage.",
-      "Integrated third-party APIs (payment gateways, mapping services, push notifications) to extend application capabilities, reducing custom development effort by ~30%.",
-      "Identified and resolved 50+ bugs through systematic testing, debugging, and code reviews, contributing to a more stable product release.",
-      "Collaborated with cross-functional Agile teams across 2-week sprint cycles, consistently delivering features on time.",
+      "Developed and optimized user-friendly mobile applications by integrating third-party APIs, improving performance, and ensuring seamless navigation.",
+      "Ensured high application quality through thorough testing, bug identification, and troubleshooting to enhance overall user experience.",
+      "Collaborated with cross-functional and Agile teams to design, develop, and deliver new features while streamlining development processes.",
+      "Built and integrated RESTful APIs using Node.js and Express.js for efficient client-server communication.",
+      "Worked with MongoDB for database design, data modeling, and scalable data management.",
+      "Applied modern JavaScript frameworks and best practices to deliver maintainable, high-performance solutions.",
     ],
     technologies: ["React Native", "Node.js", "Express.js", "MongoDB", "Git", "Agile"],
   },
