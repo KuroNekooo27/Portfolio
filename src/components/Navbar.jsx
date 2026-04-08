@@ -28,11 +28,9 @@ const Navbar = () => {
           to="hero"
           smooth
           duration={500}
-          className="text-xl font-bold cursor-pointer"
+          className="text-2xl font-bold cursor-pointer flex items-center gap-2"
         >
-          <span className="gradient-text">&lt;</span>
-          Portfolio
-          <span className="gradient-text"> /&gt;</span>
+          <span className="font-serif italic gradient-text tracking-tight">AV</span>
         </Link>
 
         {/* Desktop Links */}
