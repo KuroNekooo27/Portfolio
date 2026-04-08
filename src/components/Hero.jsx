@@ -91,7 +91,7 @@ const Hero = () => {
             {personalInfo.resumeUrl && (
               <a
                 href={personalInfo.resumeUrl}
-                target="_blank"
+                download="Ashley_Villanueva_Resume.pdf"
                 rel="noopener noreferrer"
               >
                 <button className="btn-outline flex items-center gap-2">

@@ -24,10 +24,10 @@ const Contact = () => {
       // Sign up at https://www.emailjs.com/ (free tier: 200 emails/month)
       // Service ID, Template ID, and Public Key are found in your EmailJS dashboard
       await emailjs.sendForm(
-        "YOUR_SERVICE_ID",     // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID",    // Replace with your EmailJS template ID
+        "service_cmxfev6",
+        "template_cys514g",
         formRef.current,
-        "YOUR_PUBLIC_KEY"      // Replace with your EmailJS public key
+        "6yH2A3cD19fJcxo7Z"
       );
       setStatus({
         type: "success",
