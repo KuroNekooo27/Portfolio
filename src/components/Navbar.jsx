@@ -30,7 +30,7 @@ const Navbar = () => {
           duration={500}
           className="text-2xl font-bold cursor-pointer flex items-center gap-2"
         >
-          <span className="font-serif italic gradient-text tracking-tight">AV</span>
+          <img src="/logo.png" alt="AV Logo" className="h-8 w-auto" />
         </Link>
 
         {/* Desktop Links */}
